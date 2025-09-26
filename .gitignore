@@ -1,0 +1,100 @@
+###################################################
+# Android/Java/Kotlin/Gradle Ignored Files
+###################################################
+
+# Gradle build output directories
+/build/
+.gradle/
+
+# Local settings file (contains SDK paths, etc.)
+local.properties
+
+# Android Studio / IntelliJ caches and metadata
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# IntelliJ local tasks, logs, ephemeral data
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# If you *want* to share run configurations, remove this line or negate it
+# .idea/runConfigurations is sometimes handy to keep in the repo
+#.idea/**/runConfigurations
+
+# Android build output
+bin/
+gen/
+out/
+captures/
+.externalNativeBuild
+.cxx
+
+# Android Studio project files
+*.iml
+
+# OS metadata
+.DS_Store
+
+# Potentially large or sensitive files
+*.log
+*.jks      # Keep ignoring if signing keys are sensitive
+*.keystore # Same reason as .jks
+
+# Kotlin / Java classes
+*.class
+*.kotlin_module
+
+# Virtual machine crash logs
+hs_err_pid*
+
+###################################################
+# C/C++ / Native Code
+###################################################
+# Intermediate compiled files
+*.o
+*.obj
+*.pyc
+
+# NDK / CMake build directories
+cmake-build-debug/
+cmake-build-release/
+.tmp_versions/
+modules.order
+Module.symvers
+
+# Alternatively, remove the "*.so" line if you want to keep all .so files
+# versioned everywhere.
+
+###################################################
+# Gradle Wrapper
+###################################################
+# Keep the wrapper jar so everyone uses the same Gradle version
+gradle-app.setting
+# If you are using the Gradle wrapper, do NOT ignore gradle-wrapper.jar
+
+###################################################
+# Misc JAR/AAR
+###################################################
+# If you store third-party .jar or .aar in /libs, then remove or override
+# to keep them in source control. For example:
+# *.jar
+# *.aar
+# or if you do want them ignored:
+# /libs/*.jar
+
+###################################################
+# Google Services
+###################################################
+# Typically, google-services.json can contain API keys, so we ignore it.
+# If you require it in the repo for test/fake keys, remove/comment out:
+google-services.json

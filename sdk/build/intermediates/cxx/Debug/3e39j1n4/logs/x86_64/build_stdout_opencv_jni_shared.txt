@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\AndroidProject\weldvision\android\sdk\.cxx\Debug\3e39j1n4\x86_64'
+ninja: no work to do.

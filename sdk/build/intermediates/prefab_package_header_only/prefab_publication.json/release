@@ -1,0 +1,17 @@
+{
+  "installationFolder": "C:\\AndroidProject\\weldvision\\android\\sdk\\build\\intermediates\\prefab_package\\release\\prefab",
+  "gradlePath": ":sdk",
+  "packageInfo": {
+    "packageName": "sdk",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "opencv_jni_shared",
+        "moduleHeaders": "C:\\AndroidProject\\weldvision\\android\\sdk\\native\\jni\\include",
+        "moduleExportLibraries": [],
+        "abis": []
+      }
+    ]
+  }
+}
